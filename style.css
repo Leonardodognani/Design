@@ -56,6 +56,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -72,6 +73,11 @@ h2 {
   font-size: 14px;
   padding: 8px 12px;
 }
+
+img {
+  border-radius: 10px;
+}
+
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
@@ -93,6 +99,8 @@ h1 {
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
+
+  /* text-shadow: 0px 20px 3px rgba(0, 0, 0, 0.2); */
 }
 
 .header-text {
@@ -128,6 +136,7 @@ img {
   background-color: #087F5B;
   color:#fff;
   padding: 24px;
+  border-radius: 10px;
 }
 
 .testimonial-box {
@@ -146,8 +155,19 @@ img {
 }
 
 /* CHAIRS */
+
+.chair{
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
 .chair-box {
   padding: 24px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 h3 {
